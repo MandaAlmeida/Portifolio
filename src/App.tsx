@@ -1,8 +1,14 @@
 import { Home } from "./Pages/Home";
+import { Skills } from "./Pages/Skills";
 
 function App() {
    return (
-  <Home />
+    <div >
+     
+     <Home />
+     
+    <Skills />
+    </div>
   )
 }
 
