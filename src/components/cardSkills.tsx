@@ -9,7 +9,7 @@ interface cardSkillsProps {
 export function Card(props: cardSkillsProps){
     return (
         
- <div className="bg-[#151620]  w-[380px] h-[395px] rounded-[20px]">
+ <div className="bg-[#151620]  w-[350px] h-[395px] rounded-[20px]">
     <div className=" m-auto">
     <div className="flex flex-row gap-2 justify-center">
      <img src={props.ImgUrlhtml} alt="" className=" mt-[53px] "/>
