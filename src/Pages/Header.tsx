@@ -16,7 +16,7 @@ return (
   <header  className={action ? 'bg-black opacity-90 delay-100' : ''} >
      <div className="flex justify-between px-28">
      <div className='mt-2 '>
-       <a href=""><img src={logo} alt="" /></a>
+       <img src={logo} alt="" />
      </div>
      <div>
      <div className='flex justify-end text-sm gap-8 text-white mt-8 font-sans font-semibold uppercase h-8 '>

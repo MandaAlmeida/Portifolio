@@ -18,7 +18,7 @@ export function CardProjectLeft(props: CardProjectProps){
     
     <div className="flex flex-col mt-[183px] ">
         <strong className="font-sans font-semibold   text-[#E2E2E5]">{props.title}</strong>
-        <p className="font-sans text-[32px] mt-4 font-light text-[#E2E2E6]">{props.text}<span className="font-semibold">{props.textspan}</span>  </p>
+        <p className="font-sans text-[32px] mt-4  font-semibold text-[#E2E2E6]"><span className="font-light opacity-[55%]">{props.text}</span> {props.textspan} </p>
         
         <p className='mt-6 text-lg text-[#E3E4E6] font-sans font-light'>{props.graph}</p>
 
@@ -37,7 +37,7 @@ export function CardProjectRight(props: CardProjectProps){
         <div className="flex flex-row  mt-20 w-[1220px]  gap-8">
     <div className="flex flex-col mt-[183px] ">
         <strong className="font-sans font-semibold   text-[#E2E2E5]">{props.title}</strong>
-        <p className="font-sans text-[32px] mt-4 font-light text-[#E2E2E6]">{props.text}<span className="font-semibold">{props.textspan}</span>  </p>
+        <p className="font-sans text-[32px] mt-4  font-semibold text-[#E2E2E6]"><span className="font-light opacity-[55%]">{props.text}</span> {props.textspan} </p>
         
         <p className='mt-6 text-lg text-[#E3E4E6] font-sans font-light'>{props.graph}</p>
 

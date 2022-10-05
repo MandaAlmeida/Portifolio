@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { About } from "./Pages/About";
+import { Contact } from "./Pages/Contact";
 import { Header } from "./Pages/Header";
 import { Home } from "./Pages/Home";
 import { Project } from "./Pages/Project";
@@ -61,6 +63,8 @@ function App() {
      <Home />
     <Skills />
     <Project />
+    <About />
+    <Contact />
     </div>
   )
 }

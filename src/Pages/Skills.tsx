@@ -1,21 +1,21 @@
 import { Card } from "../components/cardSkills";
-import JavaScript from "../assets/JavaScript.svg";
-import Html from "../assets/html.svg";
-import CSS from "../assets/css.svg";
-import ReactNative from "../assets/reactNative.svg";
-import React from "../assets/react.svg";
-import Vtex from "../assets/vtex.svg";
-import Node from "../assets/node.svg";
+import JavaScript from "../assets/Skills/JavaScript.svg";
+import Html from "../assets/Skills/html.svg";
+import CSS from "../assets/Skills/css.svg";
+import ReactNative from "../assets/Skills/reactNative.svg";
+import React from "../assets/Skills/react.svg";
+import Vtex from "../assets/Skills/vtex.svg";
+import Node from "../assets/Skills/node.svg";
 
 export function Skills(){
     return(
-        <div className="pt-40 ">
+        <div className="pt-40  ">
         <div >
             <h2 className="bg-primary uppercase bg-clip-text text-transparent font-heebo text-xl font-light" >COMO EU <span className="font-medium">POSSO TE AJUDAR?</span></h2>
             <strong className="text-[#E2E2E5] font-heebo font-medium text-[32px]">Algumas de minhas habilidades</strong>
             <p className="font-heebo text-center font-light text-[26px] text-[#E2E2E5] py-8">Programação</p>
         </div>
-        <div className="flex flex-row  flex-wrap gap-5">
+        <div className="flex justify-center flex-wrap gap-5">
         
         <Card 
          ImgUrlhtml={Html}
