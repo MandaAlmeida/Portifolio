@@ -1,11 +1,7 @@
 interface cardAboutProps {
-    imgUrl: string;
+  imgUrl: string;
 }
 
-export function CardAbout(props: cardAboutProps){
-    return(
-        <div className=" w-[282px] h-[408px] rounded-lg ">
-            <img src={props.imgUrl} alt="" />
-        </div>
-    )
+export function CardAbout(props: cardAboutProps) {
+  return <img className=" w-[100%] rounded-lg " src={props.imgUrl} alt="" />;
 }

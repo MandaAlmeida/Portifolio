@@ -5,7 +5,12 @@ module.exports = {
     './index.html'
   ],
   theme: {
-
+    screens: {
+      'sm': '280px',
+      'md': '720px',
+      'lg': '1025px',
+      'xl': '2500px',
+    },
     fontFamily: {
       sans: ['Work Sans', 'sans-serif'],
       xing: ['Zhi Mang Xing', 'sans-serif'],
@@ -22,6 +27,10 @@ module.exports = {
         'white': 'linear-gradient(99.05deg, #ffffff 0.07%, #ffffff 106.32%)'
       }
     },
+  }, corePlugins: {
+    aspectRatio: false,
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ],
 }
