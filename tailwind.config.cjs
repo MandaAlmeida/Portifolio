@@ -27,10 +27,5 @@ module.exports = {
         'white': 'linear-gradient(99.05deg, #ffffff 0.07%, #ffffff 106.32%)'
       }
     },
-  }, corePlugins: {
-    aspectRatio: false,
-  },
-  plugins: [
-    require('@tailwindcss/aspect-ratio')
-  ],
+  }
 }

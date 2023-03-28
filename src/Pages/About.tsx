@@ -13,7 +13,7 @@ export function About() {
         <h2 className=" lg:text-2xl sm:text-xl  font-semibold uppercase">
           Um pouco sobre mim
         </h2>
-        <strong className="  lg:text-[32px] sm:text-xl font-semibold leading-[48px]">
+        <strong className="  lg:text-[32px] sm:text-xl font-semibold lg:leading-[48px]">
           <span className=" font-light opacity-[55%]">
             Sou uma desenvolvedora Front-ent que é apaixonada{" "}
           </span>{" "}
