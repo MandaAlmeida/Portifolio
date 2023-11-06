@@ -34,7 +34,7 @@ export function Contact() {
           <Linkedin color="#E3E4E6" size={48} className="p-2" />
         </a>
         <a
-          href="https://github.com/amandaalmeida20"
+          href="https://github.com/MandaAlmeida/Portifolio"
           target="_blank"
           aria-label="Github"
           rel="noopener noreferrer"
